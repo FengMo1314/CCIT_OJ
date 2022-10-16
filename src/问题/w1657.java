@@ -17,7 +17,7 @@ public class w1657 {
 				a[i][j] = sc.nextInt();
 			}
 		}
-		// ???????
+		// ?????
 		int max = a[0][0], min = a[0][0];
 		for (int[] element : a) {
 			for (int element2 : element) {
