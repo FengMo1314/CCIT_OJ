@@ -14,8 +14,8 @@ public class w1399 {
 			a[i] = sc.nextInt();
 		}
 		sc.close();
-		for (int j = 0; j < a.length; j++) {
-			sum = sum + a[j];
+		for (int element : a) {
+			sum = sum + element;
 		}
 		sum=sum/n;
 		System.out.println(sum);

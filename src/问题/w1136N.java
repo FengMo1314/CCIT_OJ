@@ -32,7 +32,7 @@ public class w1136N {
 						rest = false;
 						break;
 					}
-					
+
 				}
 				if (rest) {
 					temp = c * 10 + d;

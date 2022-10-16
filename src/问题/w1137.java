@@ -16,7 +16,7 @@ public class w1137 {
         }
         for(int j=0;j<m.length;j++){
         	temp=m[j];
-            temp=m[n-1-j]; 
+            temp=m[n-1-j];
             System.out.print(temp+" ");
         }
         sc.close();

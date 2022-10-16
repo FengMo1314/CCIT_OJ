@@ -27,7 +27,7 @@ public class w1139 {
 				System.out.print(sub + ":" + zu[i] + " ");
 			}
 		}
-		
+
 		sc.close();
 	}
 

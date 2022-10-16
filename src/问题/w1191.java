@@ -16,9 +16,9 @@ public class w1191 {
 			temp[a[j]]++;
 		}
 		int max = temp[0];
-		for (int j = 0; j < temp.length; j++) {
-			if (temp[j] > max) {
-				max = temp[j];
+		for (int element : temp) {
+			if (element > max) {
+				max = element;
 			}
 		}
 		for (int i = 0; i < temp.length; i++) {

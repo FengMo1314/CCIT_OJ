@@ -37,7 +37,7 @@ public class w1135 {
 					sum = sum + 1;
 				}
 			}
-			
+
 		}
 		System.out.println(sum);
 	}

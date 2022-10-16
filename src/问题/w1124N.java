@@ -11,7 +11,7 @@ public class w1124N {
 		long sum = 1, end = 0;
 		sc.close();
 		for (int i = 1; i <= n; i++) {
-			sum = sum * i;	
+			sum = sum * i;
 			if (sum%10 == 0) {
 				while(sum%10==0){
 				sum= sum/ 10;

@@ -15,10 +15,10 @@ public class w1083 {
 					System.out.println("impossible");
 				}else{
 					for(;sum<h-m;sum=sum+m-n){
-						count++;				
+						count++;
 					}
 					System.out.println(count);
 				}
-			
+
 			}
 }

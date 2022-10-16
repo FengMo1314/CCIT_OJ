@@ -16,8 +16,8 @@ public class w1468 {
 		for (int i = 0; i < a.length; i++) {
 			a[i] = a[i].trim();//去除a[i]两端的空格
 			String[] temp = a[i].split(" +");
-			for (int j = 0; j < temp.length; j++) {
-				char first = temp[j].charAt(0);
+			for (String element : temp) {
+				char first = element.charAt(0);
 				if (first >= 'A' && first <= 'Z') {
 					System.out.print(first);
 				} else if (first >= 'a' && first <= 'z') {

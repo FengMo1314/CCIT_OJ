@@ -19,25 +19,25 @@ public class W1017 {
 			min = c;
 			System.out.println(max+" "+middle+" "+min);
 		} else if (a > c&&c>b) {
-			
+
 				max = a;
 			middle = c;
 			min = b;
 			System.out.println(max+" "+middle+" "+min);
 		} else if (b > c&&c>a) {
-			
+
 				max = b;
 			middle = c;
 			min = a;
 			System.out.println(max+" "+middle+" "+min);
 		} else if (b > a&&a>c) {
-			
+
 				max = b;
 			middle = a;
 			min = c;
 			System.out.println(max+" "+middle+" "+min);
 		} else if (c > a&&a>b) {
-	
+
 				max = c;
 			middle = a;
 			min = b;

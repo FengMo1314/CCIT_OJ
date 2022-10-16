@@ -13,8 +13,8 @@ public class w1050 {
 			a[i]=sc.nextInt();
 		}
 		int sum=0;
-		for(int j=0;j<a.length;j++){
-			sum=sum+a[j];
+		for (int element : a) {
+			sum=sum+element;
 		}
 		if(sum/5<0){
 			System.out.println(5);

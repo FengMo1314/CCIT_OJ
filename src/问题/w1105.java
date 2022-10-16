@@ -8,7 +8,7 @@ public class w1105 {
 		Scanner sc = new Scanner(System.in);
 		int m = sc.nextInt();
 		long n = sc.nextLong();
-		long kind = (long)m * n;
+		long kind = m * n;
 		sc.close();
 		System.out.println(kind);
 

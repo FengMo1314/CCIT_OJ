@@ -16,10 +16,10 @@ public class w1651 {
 				a[i][j] = sc.nextInt();
 			}
 		}
-		for (int i = 0; i < a.length; i++) {
-			for (int j = 0; j < a[i].length; j++) {
-				if (a[i][j] > max) {
-					max = a[i][j];
+		for (int[] element : a) {
+			for (int j = 0; j < element.length; j++) {
+				if (element[j] > max) {
+					max = element[j];
 				}
 			}
 		}

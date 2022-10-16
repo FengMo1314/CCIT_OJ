@@ -7,7 +7,7 @@ public class w1092N {
 	static void zhi(int[] a, int n) {
 		int m = 0;
 		int[] zhicheng = new int[n];
-		
+
 		int j = 2;
 		while (j < zhicheng.length - 1) {
 			j=0;
@@ -17,7 +17,7 @@ public class w1092N {
 			}
 			j++;
 		}
-		
+
 		zhi(zhicheng, m);
 	}
 	public static void main(String[] args) {

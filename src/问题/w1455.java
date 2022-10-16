@@ -16,7 +16,7 @@ public class w1455 {
 				}
 				else if (i == j) {
 					a[i][j] = 1;
-				} 
+				}
 				else {
 					a[i][j] = a[i - 1][j-1] + a[i-1][j ];
 				}

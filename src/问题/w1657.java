@@ -1,4 +1,5 @@
-package ÎÊÌâ;
+package é—®é¢˜;
+
 
 import java.util.Scanner;
 
@@ -16,19 +17,19 @@ public class w1657 {
 				a[i][j] = sc.nextInt();
 			}
 		}
-		//???????
+		// ???????
 		int max = a[0][0], min = a[0][0];
-		for (int i = 0; i < a.length; i++) {
-			for (int j = 0; j < a[i].length; j++) {
-				if (a[i][j] < min) {
-					min = a[i][j];
+		for (int[] element : a) {
+			for (int element2 : element) {
+				if (element2 < min) {
+					min = element2;
 				}
-				if (a[i][j] > max) {
-					max = a[i][j];
+				if (element2 > max) {
+					max = element2;
 				}
 			}
 		}
-		//???????ï¿½ï¿½??
+		
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 0; j < a[i].length; j++) {
 				if (a[i][j] == max) {
@@ -38,17 +39,13 @@ public class w1657 {
 				}
 			}
 		}
-		//?????????????
-		for (int i = 0; i < a.length; i++) {
-			for (int j = 0; j < a[i].length; j++) {
-				System.out.print(a[i][j] + " ");
+		
+		for (int[] element : a) {
+			for (int element2 : element) {
+				System.out.print(element2 + " ");
 			}
 			System.out.println();
 		}
 		sc.close();
 	}
 }
-
-
-	
-

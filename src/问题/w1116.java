@@ -12,7 +12,7 @@ public class w1116 {
 		int zheng = 0;
 		int zero = 0;
 		int fu = 0;
-		
+
 		for (int i = 0; i < 20; i++) {
 			n[i] = sc.nextInt();
 			if (n[i] > 0) {

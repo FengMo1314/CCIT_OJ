@@ -11,7 +11,7 @@ public class W1696 {
 	//货物总量
 	static Scanner sc=new Scanner(System.in);
   static  int n=sc.nextInt();
-	
+
 	//火车车厢
 	static int[] a=new int[100];
 	//把剩余货物left搬运到火车第k节车厢
@@ -34,13 +34,13 @@ public class W1696 {
 				dfs(k+1,left-i);
 			}
 		}
-		
+
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
      a[0]=1011010;
-     
+
      dfs(1,n);
 	}
 

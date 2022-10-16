@@ -10,7 +10,7 @@ public class w1692 {
 
 	// 填充数组a的第k个格子
 	static void fun(int k) {
-		
+
 		//（边界条件） 如果k=n+1，
 		if (k == n + 1) {
 			for (int i = 1; i < k; i++) {

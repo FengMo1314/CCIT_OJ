@@ -23,7 +23,7 @@ public class w1189 {
 		int sum = 0;
 		for (int i = 1; i <= n; i++) {
 			String s = Integer.toString(i);//intתString
-			if (huiWen(s) == true) {
+			if (huiWen(s)) {
 				sum++;
 			}
 		}

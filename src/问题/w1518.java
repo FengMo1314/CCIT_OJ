@@ -27,7 +27,7 @@ public class w1518 {
 			}
 
 		}
-      
+
       System.out.println(m);
       for(int i=0;i<m;i++){
     	  System.out.println(b[i]);

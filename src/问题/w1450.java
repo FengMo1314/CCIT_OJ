@@ -14,8 +14,8 @@ public class w1450 {
 			a[i]=sc.nextInt();
 		}
 		Arrays.sort(a);
-		for(int j=0;j<a.length;j++){
-			System.out.print(a[j]+"\t");
+		for (int element : a) {
+			System.out.print(element+"\t");
 		}
 sc.close();
 	}

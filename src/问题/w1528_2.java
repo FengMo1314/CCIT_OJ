@@ -14,7 +14,7 @@ public class w1528_2 {
 		if(a[n]!=0){//计算过则返回原值
 			return a[n];
 		}
-		
+
 		//如果第n项没有被计算过，那么继续计算，
 		a[n]= dfs(n-1)+dfs(n-2);
 		return a[n];

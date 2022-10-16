@@ -8,6 +8,7 @@ public class W1043 {
 	}
 
 	private static class IntBinConvertor implements Convertor<String, Integer> {
+		@Override
 		public String convert(Integer integer) throws RuntimeException {
 			return Integer.toBinaryString(integer);
 		}

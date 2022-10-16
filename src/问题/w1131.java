@@ -17,11 +17,11 @@ public class w1131 {
 			for(j=1;j<=2*i-1;j++){
 				k=i;
 				System.out.print(k);
-			
+
 			}
 			System.out.println();
 		}
-		
+
 	}
 
 }

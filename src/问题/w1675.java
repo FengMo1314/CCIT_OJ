@@ -15,9 +15,9 @@ public class w1675 {
 			temp[c]++;
 		}
 		int max = -1;
-		for (int i = 0; i < temp.length; i++) {
-			if (temp[i] > max) {
-				max = temp[i];
+		for (int element : temp) {
+			if (element > max) {
+				max = element;
 			}
 		}
 		int min=123,m=0;
