@@ -20,8 +20,8 @@ public class W1658 {
 			}
 		}
 		for (int[] element : a) {
-			for (int j = 0; j < element.length; j++) {
-				System.out.print(element[j] + " ");
+			for (int element2 : element) {
+				System.out.print(element2 + " ");
 			}
 			System.out.println();
 		}

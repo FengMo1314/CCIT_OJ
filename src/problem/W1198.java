@@ -6,6 +6,21 @@ public class W1198 {
 
 	private static Scanner sc;
 
+	public static String fenJie(int num) {
+		StringBuffer sb = new StringBuffer(num + "=");
+		int i = 2;
+		while (i <= num) {
+			if (num % i == 0) {
+				sb.append(i + "*");
+				num = num / i;
+				i = 2;
+			} else {
+				i++;
+			}
+		}
+		return sb.toString().substring(0, sb.toString().length() - 1);
+	}
+
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
 		int a = sc.nextInt();
@@ -24,21 +39,6 @@ public class W1198 {
 			}
 		}
 		sc.close();
-	}
-
-	public static String fenJie(int num) {
-		StringBuffer sb = new StringBuffer(num + "=");
-		int i = 2;
-		while (i <= num) {
-			if (num % i == 0) {
-				sb.append(i + "*");
-				num = num / i;
-				i = 2;
-			} else {
-				i++;
-			}
-		}
-		return sb.toString().substring(0, sb.toString().length() - 1);
 	}
 
 }

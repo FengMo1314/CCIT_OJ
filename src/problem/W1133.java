@@ -6,6 +6,15 @@ public class W1133 {
 	static int m;
 	static char a = 'A';
 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		m = n;
+		ziMu(n);
+		sc.close();
+	}
+
 	public static void ziMu(int n) {
 
 		if (n == 0) {
@@ -22,14 +31,5 @@ public class W1133 {
 		}
 		System.out.println();
 		a = 'A';
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		m = n;
-		ziMu(n);
-		sc.close();
 	}
 }

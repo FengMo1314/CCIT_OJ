@@ -17,9 +17,9 @@ public class W1651 {
 			}
 		}
 		for (int[] element : a) {
-			for (int j = 0; j < element.length; j++) {
-				if (element[j] > max) {
-					max = element[j];
+			for (int element2 : element) {
+				if (element2 > max) {
+					max = element2;
 				}
 			}
 		}

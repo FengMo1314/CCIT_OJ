@@ -9,19 +9,18 @@ public class W1108N {
 		Scanner sc = new Scanner(System.in);
 		String s1 = sc.next();
 		String s2 = sc.next();
-		int len = s2.length(), sum = 0;
-		sc.close();
-		for (int i = 0; i < s1.length(); i++) {
-			char a=s1.charAt(i);
-			if(i==len) len++;
-			for(int j=i;j<len;j++) {
-				char b=s2.charAt(j);
-				if(a==b) {
-					sum++;
-				}
-			}
+		// 匹配的子串在字符串中的下标
+		int index = 0;
+		// 计算出现的次数
+		int count = 0;
+//        String findStr = "Hello";
+		while ((index = s1.indexOf(s2, index)) != -1) {
+//            System.out.print(s1.charAt(index) + " ");
+			index += s2.length();
+			count++;
 		}
-		System.out.println(sum);
+		System.out.println(count);
+
 	}
 
 }

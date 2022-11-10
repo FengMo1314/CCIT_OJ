@@ -16,6 +16,5 @@ public class Xin {
 			System.out.print("\n");
 		}
 	}
-  
- 
+
 }
